@@ -1,10 +1,10 @@
 import { Group, Tooltip, UnstyledButton, useComputedColorScheme, useMantineColorScheme } from '@mantine/core';
-import { Sun, Moon } from 'lucide-react';
+import { LuSun, LuMoon } from 'react-icons/lu';
 import classes from './colortoggle.module.css';
 export default function ColorToggle() {
   const { setColorScheme } = useMantineColorScheme();
   const computedColorScheme = useComputedColorScheme('dark', { getInitialValueInEffect: true });
-  const Icon = computedColorScheme === 'light' ? Moon : Sun
+  const Icon = computedColorScheme === 'light' ? LuMoon : LuSun
 
   return (
     <Group className={classes.button}>

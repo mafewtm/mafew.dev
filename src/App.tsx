@@ -7,7 +7,7 @@ export default function App() {
     <Box className={classes.container}>
       <Stack align='center'>
         <Title className={classes.title}>Hi, I'm Matthew :)</Title>
-        <Text c="dimmed" size="lg" ta="center" className={classes.description}>
+        <Text c='dimmed' size='lg' ta='center' className={classes.description}>
           Nothing to see here yet. More to come soon!
         </Text>
       </Stack>
