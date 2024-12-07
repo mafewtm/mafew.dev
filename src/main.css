@@ -1,8 +1,5 @@
 @import url('https://use.typekit.net/qgr5ebd.css');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 #root {
   font-family: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
