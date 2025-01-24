@@ -12,6 +12,9 @@ export default function App() {
         <a href='https://discord.com/users/272829359117697025' target='_blank' rel='noopener noreferrer'>
           <Icon icon='simple-icons:discord' aria-label='Discord' />
         </a>
+        <a href='mailto:matthew@mafew.dev' target='_blank' rel='noopener noreferrer'>
+          <Icon icon='simple-icons:minutemailer' aria-label='Email' />
+        </a>
         <a href='https://ko-fi.com/mafewtm' target='_blank' rel='noopener noreferrer'>
           <Icon icon='simple-icons:kofi' aria-label='Ko-fi' />
         </a>
