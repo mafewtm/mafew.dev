@@ -4,6 +4,7 @@ import App from './App';
 import './main.css';
 
 const root = createRoot(document.getElementById('root')!);
+
 root.render(
   <StrictMode>
     <App />
