@@ -1,23 +1,20 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "lib": ["esnext", "dom", "dom.iterable"],
-    "jsx": "react-jsx",
+    // General
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "target": "ESNext",
+
+    // Modules
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "strictFunctionTypes": true,
-    "allowUnreachableCode": false,
+    "isolatedModules": true,
+    "module": "ESNext",
     "moduleResolution": "bundler",
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "removeComments": true,
-    "skipLibCheck": true,
     "noEmit": true,
-    "baseUrl": ".",
-  },
-  "include": ["src", "vite.config.ts"],
+
+    // Type Checking & Safety
+    "strict": true,
+    "types": ["vite/client"]
+  }
 }
