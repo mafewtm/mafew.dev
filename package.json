@@ -4,9 +4,9 @@
   "type": "module",
   "homepage": "web/build",
   "scripts": {
-    "dev": "bun",
-    "build": "bun build",
-    "preview": "bun preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tabler/icons-solidjs": "^3.35.0",
